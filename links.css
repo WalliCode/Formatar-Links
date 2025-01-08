@@ -1,0 +1,27 @@
+a{
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+a:link{
+    color: #b9c941;
+    /*link não visitado*/
+}
+
+a:visited{
+    color: blueviolet;
+    /*visitados*/
+}
+
+a:hover{
+    color: #fff;
+    background: #6d790f;
+    /*quando passa o mouse em cima muda de cor*/
+}
+
+a:active{
+    color: #e3f371;
+    /*quando clica e segura muda de cor*/
+}
+
+/*Manter nessa ordem para organização*/
